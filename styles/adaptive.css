@@ -1,0 +1,50 @@
+@media screen and (max-width: 1200px) {
+
+    .form {
+        width: 90%;
+        padding-left: 30px;
+        padding-right: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    form {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .container {
+        width: 95%;
+    }
+    .popup-content {
+        padding-left: 133px;
+        padding-right: 133px;
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .form-button {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .button-border-gradient {
+        width: 299px;
+    }
+    .btn {
+        width: 299px;
+    }
+    .btn-transparent {
+        width: 299px;
+    }
+    .popup-content {
+        padding: 50px 30px;
+    }
+
+    .genders {
+        flex-direction: column;
+        gap: 20px;
+    }
+}

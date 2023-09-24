@@ -1,0 +1,36 @@
+<div class="form">
+    <form action="">
+        <div class="form-inputs">
+            <div class="form-title">
+                <div class="form-title-text">Возраст</div>
+                <div class="form-title-page"><span id="page" class="page-now"></span>/<span class="page-all">3</span></div>
+            </div>
+            <div class="form-input range">
+                <div class="age-now" id="age-now-element"><span id="age-now">0</span> <p>лет</p></div>
+                <input id="age" type="range" min="18" max="35" value="26" step="1" onchange="">
+                <div class="range-age">
+                    <div><span id="min-age">18</span> лет</div>
+                    <div><span id="max-age">35</span> лет</div>
+                </div>
+            </div>
+        </div>
+        <div class="form-inputs">
+            <div class="form-title">
+                <div class="form-title-text">Пол</div>
+            </div>
+            <div class="form-input genders">
+                <div class="form-input-item">
+                    <input id="man" name="gender" type="radio">
+                    <label for="man">мужчина</label>
+                </div>
+                <div class="form-input-item">
+                    <input id="woman" name="gender" type="radio">
+                    <label for="woman">женщина</label>
+                </div>
+            </div>
+        </div>
+        <div class="form-button">
+            <button type="button" class="btn" id="btn" disabled>Далее</button>
+        </div>
+    </form>
+</div>
